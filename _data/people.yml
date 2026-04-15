@@ -5,7 +5,7 @@
         - "Xiongnan Jin"
         - "JIN Xiongnan"
         - "X. Jin"
-      email: "xxx@szu.edu.cn"
+      email: "xiongnanjin@szu.edu.cn"
       homepage: "https://scholar.google.com/citations?hl=zh-CN&user=xqEmRngAAAAJ&view_op=list_works&sortby=pubdate"
       img: "jinxiongnan.jpg"
       interests:
@@ -25,7 +25,7 @@
       img: ""
       interests:
         - Knowledge boundary detection
-        - Knowledge-Enhanced LLMs 
+        - Knowledge-Enhanced LLMs
     - name: "梅甜甜"
       name_en: 
         - "Mei Tiantian"
@@ -35,7 +35,39 @@
       img: ""
       interests:
         - Knowledge Distillation
-        - Knowledge-Enhanced LLMs   
+        - Knowledge-Enhanced LLMs
 
-
-
+- role: Undergraduate Interns
+  members:
+    - name: "陈申怡"
+      name_en: 
+        - "Shenyi Chen"
+        - "CHEN Shenyi"
+        - "S. Chen"
+      email: ""
+      img: ""
+      interests: []
+    - name: "孙天一"
+      name_en: 
+        - "Tianyi Sun"
+        - "SUN Tianyi"
+        - "T. Sun"
+      email: ""
+      img: ""
+      interests: []
+    - name: "黄杨辰弘"
+      name_en: 
+        - "Yangchenhong Huang"
+        - "HUANG Yangchenhong"
+        - "Y. Huang"
+      email: ""
+      img: ""
+      interests: []
+    - name: "郑好"
+      name_en: 
+        - "Hao Zheng"
+        - "ZHENG Hao"
+        - "H. Zheng"
+      email: ""
+      img: ""
+      interests: []
