@@ -1,0 +1,29 @@
+<header class="site-header">
+  <nav class="nav-container">
+
+    <!-- 左侧 logo -->
+    <div class="logo">
+      <a href="{{ '/' | relative_url }}">
+        <!-- 如果暂时没有 logo 图片，可以先只放文字 -->
+        <!-- <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Lab Logo"> -->
+        <span class="logo-text"><i class="fas fa-network-wired" style="color: var(--primary-color);"></i> Neuro-Symbolic AI Lab</span>
+      </a>
+    </div>
+
+    <!-- 右侧导航链接 -->
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        {% assign current = page.url | relative_url %}
+        {% for item in site.data.navigation %}
+        {% assign item_url = item.link | relative_url %}
+        <li class="nav-item">
+          <a href="{{ item_url }}" class="nav-link{% if current == item_url %} nav-link-active{% endif %}">
+            {% if item.icon %}<i class="{{ item.icon }}"></i> {% endif %}{{ item.name }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </nav>
+</header>

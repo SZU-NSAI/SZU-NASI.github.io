@@ -1,0 +1,41 @@
+- role: Principal Investigator
+  members:
+    - name: "金雄男"
+      name_en: 
+        - "Xiongnan Jin"
+        - "JIN Xiongnan"
+        - "X. Jin"
+      email: "xxx@szu.edu.cn"
+      homepage: "https://scholar.google.com/citations?hl=zh-CN&user=xqEmRngAAAAJ&view_op=list_works&sortby=pubdate"
+      img: "jinxiongnan.jpg"
+      interests:
+        - Symbolic reasoning
+        - Knowledge graphs
+        - Knowledge-Enhanced LLMs
+
+
+- role: Team Members
+  members:
+    - name: "高杨子健"
+      name_en: 
+        - "Yangzijian Gao"
+        - "YANGZIJIAN Gao"
+        - "Y. Gao"
+      email: "419542554@qq.com"
+      img: ""
+      interests:
+        - Knowledge boundary
+        - Knowledge-Enhanced LLMs 
+    - name: "梅甜甜"
+      name_en: 
+        - "Mei Tiantian"
+        - "MEI TIANTIAN"
+        - "M. Mei"
+      email: ""
+      img: ""
+      interests:
+        - Knowledge Distillation
+        - Knowledge-Enhanced LLMs   
+
+
+
