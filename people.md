@@ -1,6 +1,7 @@
 ---
 layout: default
 title: People
+permalink: /people/
 ---
 
 <section class="people-page">
@@ -11,7 +12,7 @@ title: People
 
     <div class="people-grid">
       {% for m in group.members %}
-        <div class="people-card">
+        <div class="people-card" id="{{ m.name | replace: ' ', '-' }}">
 
           {% assign img = m.img | default: "" %}
           {% if img == "" %}

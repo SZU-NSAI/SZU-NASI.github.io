@@ -20,7 +20,7 @@ layout: default
       {% for member_group in site.data.people %}
       {% for member in member_group.members %}
 
-      {% capture member_link %}<a href="{{ '/people/' | relative_url }}" class="author-highlight">{{ member.name
+      {% capture member_link %}<a href="{{ '/people/' | relative_url }}#{{ member.name | replace: ' ', '-' }}" class="author-highlight">{{ member.name
         }}</a>{% endcapture %}
       {% assign authors_formatted = authors_formatted | replace: member.name, member_link %}
 
@@ -32,7 +32,7 @@ layout: default
             {% endif %}
 
             {% for en_name in en_names %}
-              {% capture member_en_link %}<a href="{{ '/people/' | relative_url }}" class="author-highlight">{{ en_name }}</a>{% endcapture %}
+              {% capture member_en_link %}<a href="{{ '/people/' | relative_url }}#{{ member.name | replace: ' ', '-' }}" class="author-highlight">{{ en_name }}</a>{% endcapture %}
               {% assign authors_formatted = authors_formatted | replace: en_name, member_en_link %}
             {% endfor %}
           {% endif %}
